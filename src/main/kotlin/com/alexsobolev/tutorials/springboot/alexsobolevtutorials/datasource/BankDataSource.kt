@@ -10,4 +10,5 @@ interface BankDataSource {
     fun createBank(bank: Bank): Bank
 
     fun patchBank(updatedBank: Bank): Bank
+    fun deleteBank(accountNumber: String): Unit
 }
